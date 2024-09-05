@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+    demo-omni-core:
+        image: demo-omni-core:latest
+        container_name: demo_omni-core
+        build:
+            context: .
+            dockerfile: ./docker-images-build/core/Dockerfile
+                
+
